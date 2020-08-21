@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 ruby "2.3.3"
 
-gem "sinatra", "~> 2.0.0"
+gem "sinatra", "~> 2.0.8"
 gem "sinatra-sequel"
 gem "minitest"
 gem "unicorn", "~> 4.8.2"
