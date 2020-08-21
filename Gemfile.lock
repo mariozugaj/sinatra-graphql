@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    backports (3.8.0)
+    backports (3.18.1)
     concurrent-ruby (1.0.5)
     declarative (0.0.9)
     declarative-builder (0.1.0)
@@ -45,12 +45,13 @@ GEM
     inflecto (0.0.2)
     kgio (2.11.0)
     minitest (5.10.3)
-    multi_json (1.12.1)
-    mustermann (1.0.0)
+    multi_json (1.15.0)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
     pg (0.21.0)
     pipetree (0.1.1)
-    rack (2.0.3)
-    rack-protection (2.0.0)
+    rack (2.2.3)
+    rack-protection (2.0.8.1)
       rack
     raindrops (0.18.0)
     rake (12.0.0)
@@ -61,26 +62,27 @@ GEM
       declarative (< 0.1.0)
       declarative-option (< 0.2.0)
       uber (< 0.2.0)
+    ruby2_keywords (0.0.2)
     sequel (4.49.0)
-    sinatra (2.0.0)
+    sinatra (2.0.8.1)
       mustermann (~> 1.0)
       rack (~> 2.0)
-      rack-protection (= 2.0.0)
+      rack-protection (= 2.0.8.1)
       tilt (~> 2.0)
-    sinatra-contrib (2.0.0)
-      backports (>= 2.0)
+    sinatra-contrib (2.0.8.1)
+      backports (>= 2.8.2)
       multi_json
       mustermann (~> 1.0)
-      rack-protection (= 2.0.0)
-      sinatra (= 2.0.0)
-      tilt (>= 1.3, < 3)
+      rack-protection (= 2.0.8.1)
+      sinatra (= 2.0.8.1)
+      tilt (~> 2.0)
     sinatra-reloader (1.0)
       sinatra-contrib
     sinatra-sequel (0.9.0)
       sequel (>= 3.2.0)
       sinatra (>= 0.9.4)
     sqlite3 (1.3.13)
-    tilt (2.0.8)
+    tilt (2.0.10)
     trailblazer (2.0.7)
       declarative
       reform (>= 2.2.0, < 3.0.0)
@@ -106,7 +108,7 @@ DEPENDENCIES
   pg
   rake
   reform
-  sinatra (~> 2.0.0)
+  sinatra (~> 2.0.8)
   sinatra-reloader
   sinatra-sequel
   sqlite3
